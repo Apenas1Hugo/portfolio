@@ -34,12 +34,13 @@ a::before{
     padding: 0px 20px;
     box-shadow: 5px 5px 0 black;
     margin-right: 0px;
-
+    transition: transform 120ms linear;
 }
 
 #button:hover{
     background-color: white;
     color: #6EACDA ;
+    transform: scale(1.07);
 }
 
 
